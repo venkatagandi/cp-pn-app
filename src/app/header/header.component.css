@@ -1,0 +1,21 @@
+.mdl-layout__header {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.page-content,rmt-subnav {
+  padding: 1em;
+  margin-top: 1em;
+  font-size: 140%;
+}
+
+.dk-blue, .mdl-layout__drawer-button {
+  background-color: navy;
+}
+
+.mdl-layout__tab {
+  text-transform: capitalize;
+}
+
+.mdl-layout__drawer-button {
+    background-color: navy;
+}

@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+.ui-state-default { display: none!important;}
+.mypadding {
+    padding: 0px!important;
+}
+
+.ui-treetable .ui-treetable-header, .ui-treetable .ui-treetable-footer, .ui-treetable tbody .ui-treetable-row td {
+    padding: 0em;
+}
+
+
+.ui-treetable th, .ui-treetable tfoot td,
+.ui-treetable .ui-treetable-header, .ui-treetable .ui-treetable-footer, .ui-treetable tbody .ui-treetable-row td
+ {
+    border: 1px solid black;
+}
+

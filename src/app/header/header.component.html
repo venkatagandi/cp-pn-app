@@ -1,0 +1,52 @@
+    <!-- This is the container -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <!-- This is for the header -->
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row dk-blue">
+                <span class="mdl-layout-title">RS Management</span>
+            </div>
+            <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+                <a href="#scroll-tab-1" class="mdl-layout__tab is-active">View Team Schedule</a>
+                <a href="#scroll-tab-2" class="mdl-layout__tab">Manage my Activities</a>
+                <a href="#scroll-tab-3" class="mdl-layout__tab">My Resource Requests</a>
+                <a href="#scroll-tab-4" class="mdl-layout__tab">Reports</a>
+                <a href="#scroll-tab-5" class="mdl-layout__tab">Administration</a>
+                <a href="#scroll-tab-5" class="mdl-layout__tab">Scenario Modelling</a>
+                <a href="#scroll-tab-5" class="mdl-layout__tab">Time Entry</a>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">MDL menu</span>
+        </div>
+        <!-- This is for main -->
+        <main class="mdl-layout__content">
+            <rmt-subnav></rmt-subnav>
+            <section id="scroll-tab-1" class="mdl-layout__tab-panel is-active">
+                <div class="page-content">
+                    <rmt-resourceinfo></rmt-resourceinfo>
+                </div>
+            </section>
+            <section id="scroll-tab-2" class="mdl-layout__tab-panel">
+                <div class="page-content">
+                    Profile: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Atque quas ipsa saepe alias molestias praesentium voluptates velit magni inventore sapiente!
+                </div>
+            </section>
+            <section id="scroll-tab-3" class="mdl-layout__tab-panel">
+                <div class="page-content">
+                    Music: Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Corrupti nam tempora illum, odit necessitatibus possimus!
+                </div>
+            </section>
+            <section id="scroll-tab-4" class="mdl-layout__tab-panel">
+                <div class="page-content">
+                    Videos: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, ratione.
+                </div>
+            </section>
+            <section id="scroll-tab-5" class="mdl-layout__tab-panel">
+                <div class="page-content">
+                    Contact: Lorem ipsum dolor sit amet.
+                </div>
+            </section>
+        </main>
+    </div>

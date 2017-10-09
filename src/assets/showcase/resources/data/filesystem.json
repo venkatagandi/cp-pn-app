@@ -1,0 +1,155 @@
+{
+    "data":
+    [
+        {
+            "data":{
+                "name":"Sandhya Saluja",
+                "size":"75kb",
+                 "addressList": [
+                    {"day":"04Sep","totalHours":"4",
+                    "activityList":[
+                        {"activityname":"Activity1","activityhours":"1","activityLOB":"IT"},
+                        {"activityname":"Activity2","activityhours":"1","activityLOB":"Sales"},
+                        {"activityname":"Activity3","activityhours":"1","activityLOB":"LOB"},
+                        {"activityname":"Activity4","activityhours":"1","activityLOB":"VV"}
+                    ]},
+                    {"day":"05Sep","totalHours":"6",
+                    "activityList":[
+                        {"activityname":"Activity1","activityhours":"3","activityLOB":"IT"},
+                        {"activityname":"Activity2","activityhours":"1","activityLOB":"Sales"},
+                        {"activityname":"Activity3","activityhours":"1","activityLOB":"LOB"},
+                        {"activityname":"Activity4","activityhours":"1","activityLOB":"VV"}
+                    ]},
+                    {"day":"06Sep","totalHours":"8",
+                    "activityList":[
+                        {"activityname":"Activity1","activityhours":"2","activityLOB":"IT"},
+                        {"activityname":"Activity2","activityhours":"2","activityLOB":"Sales"},
+                        {"activityname":"Activity3","activityhours":"2","activityLOB":"LOB"},
+                        {"activityname":"Activity4","activityhours":"2","activityLOB":"VV"}
+                    ]},
+                    {"day":"07Sep","totalHours":"7",
+                    "activityList":[
+                        {"activityname":"Activity1","activityhours":"2","activityLOB":"IT"},
+                        {"activityname":"Activity2","activityhours":"3","activityLOB":"Sales"},
+                        {"activityname":"Activity3","activityhours":"1","activityLOB":"LOB"},
+                        {"activityname":"Activity4","activityhours":"1","activityLOB":"VV"}
+                    ]},
+                    {"day":"08Sep","totalHours":"9",
+                    "activityList":[
+                        {"activityname":"Activity1","activityhours":"3","activityLOB":"IT"},
+                        {"activityname":"Activity2","activityhours":"2","activityLOB":"Sales"},
+                        {"activityname":"Activity3","activityhours":"3","activityLOB":"LOB"},
+                        {"activityname":"Activity4","activityhours":"1","activityLOB":"VV"}
+                    ]}],
+
+                "type":"Folder"
+            },
+            "children":[
+                {
+                    "data":{
+                        "name":"Kathy Walker",
+                        "size":"55kb",
+                        "addressList": [
+                             {"day":"04Sep","totalHours":"0","activityList":[]},
+                             {"day":"05Sep","totalHours":"0","activityList":[]},
+                             {"day":"06Sep","totalHours":"0","activityList":[]},
+                             {"day":"07Sep","totalHours":"0","activityList":[]},
+                             {"day":"08Sep","totalHours":"0","activityList":[]}],
+                        "type":"Folder"
+                    },
+                    "children":[
+                        {
+                            "data":{
+                                "name":"Faraz Azman",
+                                "size":"30kb",
+                                "addressList": [
+                                    {"day":"04Sep","totalHours":"4",
+                                    "activityList":[
+                                        {"activityname":"Activity1","activityhours":"1","activityLOB":"IT"},
+                                        {"activityname":"Activity2","activityhours":"1","activityLOB":"Sales"},
+                                        {"activityname":"Activity3","activityhours":"1","activityLOB":"LOB"},
+                                        {"activityname":"Activity4","activityhours":"1","activityLOB":"VV"}
+                                    ]},
+                                    {"day":"05Sep","totalHours":"12",
+                                    "activityList":[
+                                        {"activityname":"Activity1","activityhours":"3","activityLOB":"IT"},
+                                        {"activityname":"Activity2","activityhours":"3","activityLOB":"Sales"},
+                                        {"activityname":"Activity3","activityhours":"3","activityLOB":"LOB"},
+                                        {"activityname":"Activity4","activityhours":"3","activityLOB":"VV"}
+                                    ]},
+                                    {"day":"06Sep","totalHours":"","activityList":[]},
+                                    {"day":"07Sep","totalHours":"4",
+                                    "activityList":[
+                                        {"activityname":"Activity1","activityhours":"1","activityLOB":"IT"},
+                                        {"activityname":"Activity2","activityhours":"1","activityLOB":"Sales"},
+                                        {"activityname":"Activity3","activityhours":"1","activityLOB":"LOB"},
+                                        {"activityname":"Activity4","activityhours":"1","activityLOB":"VV"}
+                                    ]},
+                                    {"day":"08Sep","totalHours":"2",
+                                    "activityList":[
+                                        {"activityname":"Activity1","activityhours":"1","activityLOB":"IT"},
+                                        {"activityname":"Activity2","activityhours":"1","activityLOB":"Sales"}
+                                    ]}],
+                                "type":"Document"
+                            }
+                        },
+                        {
+                            "data":{
+                                "name":"Hiral Udwar",
+                                "size":"25kb",
+                                "addressList": [
+                                    {"day":"04Sep","totalHours":"0","activityList":[]},
+                                    {"day":"05Sep","totalHours":"0","activityList":[]},
+                                    {"day":"06Sep","totalHours":"10",
+                                    "activityList":[
+                                        {"activityname":"Activity1","activityhours":"2","activityLOB":"IT"},
+                                        {"activityname":"Activity2","activityhours":"2","activityLOB":"Sales"},
+                                        {"activityname":"Activity3","activityhours":"2","activityLOB":"LOB"},
+                                        {"activityname":"Activity4","activityhours":"4","activityLOB":"VV"}
+                                    ]},
+                                    {"day":"07Sep","totalHours":"10",
+                                    "activityList":[
+                                        {"activityname":"Activity1","activityhours":"2","activityLOB":"IT"},
+                                        {"activityname":"Activity2","activityhours":"2","activityLOB":"Sales"},
+                                        {"activityname":"Activity3","activityhours":"2","activityLOB":"LOB"},
+                                        {"activityname":"Activity4","activityhours":"4","activityLOB":"VV"}
+                                    ]},
+                                    {"day":"08Sep","totalHours":"10",
+                                    "activityList":[
+                                        {"activityname":"Activity1","activityhours":"2","activityLOB":"IT"},
+                                        {"activityname":"Activity2","activityhours":"2","activityLOB":"Sales"},
+                                        {"activityname":"Activity3","activityhours":"2","activityLOB":"LOB"},
+                                        {"activityname":"Activity4","activityhours":"4","activityLOB":"VV"}
+                                    ]}],
+                                "type":"Resume"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "data":{
+                "name":"Resource Name 1",
+                "size":"150kb",
+                "type":"Folder"
+            },
+            "children":[
+                {
+                    "data":{
+                        "name":"Resource Name 2",
+                        "size":"90kb",
+                        "type":"Picture"
+                    }
+                },
+                {
+                    "data":{
+                        "name":"Resource Name 3",
+                        "size":"30kb",
+                        "type":"Picture"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,115 @@
+<p-growl [value]="msgs"></p-growl>
+
+<!--<p-treeTable [value]="files1">
+    <p-header>Basic</p-header>
+    <p-column field="name" header="Name"></p-column>
+    <p-column field="size" header="Size"></p-column>
+    <p-column field="type" header="Type"></p-column>
+</p-treeTable>-->
+
+<!--<p-treeTable [value]="files2" selectionMode="single" [(selection)]="selectedFile"
+    (onNodeSelect)="nodeSelect($event)" (onNodeUnselect)="nodeUnselect($event)"
+    [style]="{'margin-top':'50px'}">-->
+<p-treeTable [value]="files2" selectionMode="single" [(selection)]="selectedFile"
+    (onNodeSelect)="nodeSelect($event)" (onNodeUnselect)="nodeUnselect($event)">
+    <p-header>
+      <table>
+        <tr>
+        <th rowspan="3">
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect">
+                View Other Resources
+            </button>
+        </th>
+        <th>04Sep - 08Sep</th>
+        <th>11Sep - 15Sep</th>
+        </tr>
+        <tr>
+            <td class="border-none">
+                <table>
+                    <tr>
+                        <td *ngFor="let cm of weekHeaders">{{cm}}</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tbody>
+
+        </tbody>
+      </table>
+    </p-header>
+    <p-column field="name"></p-column>
+    <!--<p-column field="size" header="Size">
+    </p-column>-->
+    <p-column field="addressList">
+         <ng-template let-account="rowData" pTemplate="body">
+             <table>
+                 <tr>
+                     <td  *ngFor="let address of account.data.addressList" class="mypadding"  >{{address.totalHours}}</td>
+                 </tr>
+
+             </table>
+        </ng-template>
+     </p-column>
+    <p-column field="type"></p-column>
+</p-treeTable>
+<p>Selected Node: {{selectedFile ? selectedFile.data.name : 'none'}}</p>
+<p-dataTable [value]="cars">
+    <p-column field="vin" header="Vin"></p-column>
+    <p-column field="year" header="Year"></p-column>
+    <p-column field="brand" header="Brand"></p-column>
+    <p-column field="color" header="Color"></p-column>
+</p-dataTable>
+
+
+
+<!--
+<p-treeTable [value]="files3" selectionMode="multiple" [(selection)]="selectedFiles"
+    (onNodeSelect)="nodeSelect($event)" (onNodeUnselect)="nodeUnselect($event)" [style]="{'margin-top':'50px'}">
+    <p-header>Multiple Selection</p-header>
+    <p-column field="name" header="Name"></p-column>
+    <p-column field="size" header="Size"></p-column>
+    <p-column field="type" header="Type"></p-column>
+</p-treeTable>
+<p>Selected Nodes: <span *ngFor="let file of selectedFiles">{{file.data.name}} </span></p>
+
+<p-treeTable [value]="files4" selectionMode="checkbox" [(selection)]="selectedFiles2" [style]="{'margin-top':'50px'}">
+    <p-header>Checkbox Selection</p-header>
+    <p-column field="name" header="Name"></p-column>
+    <p-column field="size" header="Size"></p-column>
+    <p-column field="type" header="Type"></p-column>
+</p-treeTable>
+<p>Selected Nodes: <span *ngFor="let file of selectedFiles2">{{file.data.name}} </span></p>
+
+<p-treeTable [value]="files5" [style]="{'margin-top':'50px'}">
+    <p-header>Editable Cells with Templating</p-header>
+    <p-column field="name" header="Name">
+        <ng-template let-node="rowData" pTemplate="body">
+            <input type="text" [(ngModel)]="node.data.name" style="width:100%;border-width:0px 0px 1px 0px">
+        </ng-template>
+    </p-column>
+    <p-column field="size" header="Size">
+        <ng-template let-node="rowData" pTemplate="body">
+            <input type="text" [(ngModel)]="node.data.size" style="width:100%;border-width:0px 0px 1px 0px">
+        </ng-template>
+    </p-column>
+    <p-column field="type" header="Type">
+        <ng-template let-node="rowData" pTemplate="body">
+            <input type="text" [(ngModel)]="node.data.type" style="width:100%;border-width:0px 0px 1px 0px">
+        </ng-template>
+    </p-column>
+</p-treeTable>
+
+<p-treeTable [value]="files6" selectionMode="single" [(selection)]="selectedFile2" [style]="{'margin-top':'50px'}" [contextMenu]="cm">
+    <p-header>Context Menu</p-header>
+    <p-column field="name" header="Name"></p-column>
+    <p-column field="size" header="Size"></p-column>
+    <p-column field="type" header="Type"></p-column>
+</p-treeTable>
+
+<p-treeTable [value]="lazyFiles" [style]="{'margin-top':'50px'}"
+    (onNodeExpand)="nodeExpand($event)">
+    <p-header>Lazy Loading</p-header>
+    <p-column field="name" header="Name"></p-column>
+    <p-column field="size" header="Size"></p-column>
+    <p-column field="type" header="Type"></p-column>
+</p-treeTable>-->
